@@ -1,0 +1,19 @@
+{
+  "name": "tamoko-whenua",
+  "version": "0.1.0",
+  "private": true,
+<<<<<<< HEAD
+  "scripts": {},
+=======
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+>>>>>>> 3a0385111ff384dfff4ce11fe2360cb798fc5f0d
+  "dependencies": {
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
