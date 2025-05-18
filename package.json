@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   {
     "name": "tamoko-whenua-collective",
@@ -28,3 +29,38 @@
       "typescript": "^5.8.3"
     }
   }
+=======
+{
+  "name": "tamoko-whenua-collective",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.1.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3"
+  }
+}
+>>>>>>> afede401bd94a2abdc6c45c51a5b11a0df7730aa
