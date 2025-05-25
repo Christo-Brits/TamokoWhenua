@@ -1,9 +1,13 @@
-"use client"
-
+import { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Clock, Users, Home, CheckCircle, ArrowRight } from "lucide-react"
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "Partners & Network | Tamoko Whenua Development Collective",
+  description: "Building strategic partnerships with councils, iwi, industry associations, and local organizations.",
+}
 
 const applicationsPending = [
   {
