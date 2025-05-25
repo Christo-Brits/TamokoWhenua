@@ -1,0 +1,68 @@
+tamoko-whenua/
+├── README.md
+├── package.json
+├── .keep
+├── app/
+│   ├── page.tsx                # Home (/)
+│   ├── about-us/
+│   │   └── page.tsx            # /about-us
+│   ├── our-story/
+│   │   └── page.tsx            # /our-story
+│   ├── footpath-construction/
+│   │   ├── page.tsx            # /footpath-construction
+│   │   ├── concrete-footpaths/
+│   │   │   └── page.tsx        # /footpath-construction/concrete-footpaths
+│   │   └── kerb-channel-installation/
+│   │       └── page.tsx        # /footpath-construction/kerb-channel-installation
+│   ├── earthworks/
+│   │   ├── page.tsx            # /earthworks
+│   │   ├── subdivision-pads/
+│   │   │   └── page.tsx        # /earthworks/subdivision-pads
+│   │   └── papakainga-groundwork/
+│   │       └── page.tsx        # /earthworks/papakainga-groundwork
+│   ├── roading/
+│   │   ├── page.tsx            # /roading
+│   │   ├── road-patching/
+│   │   │   └── page.tsx        # /roading/road-patching
+│   │   ├── pavement-reinstatement/
+│   │   │   └── page.tsx        # /roading/pavement-reinstatement
+│   │   └── traffic-services/
+│   │       └── page.tsx        # /roading/traffic-services
+│   ├── drainage/
+│   │   ├── page.tsx            # /drainage
+│   │   ├── stormwater-drainage/
+│   │   │   └── page.tsx        # /drainage/stormwater-drainage
+│   │   └── sewer-water-mains/
+│   │       └── page.tsx        # /drainage/sewer-water-mains
+│   ├── subdivisions/
+│   │   ├── page.tsx            # /subdivisions
+│   │   ├── site-preparation/
+│   │   │   └── page.tsx        # /subdivisions/site-preparation
+│   │   └── utilities-installation/
+│   │       └── page.tsx        # /subdivisions/utilities-installation
+│   ├── retaining-walls/
+│   │   ├── page.tsx            # /retaining-walls
+│   │   ├── timber-retaining-walls/
+│   │   │   └── page.tsx        # /retaining-walls/timber-retaining-walls
+│   │   └── concrete-retaining-walls/
+│   │       └── page.tsx        # /retaining-walls/concrete-retaining-walls
+│   ├── workforce-development/
+│   │   ├── page.tsx            # /workforce-development
+│   │   ├── maori-pasifika-trades-training/
+│   │   │   └── page.tsx        # /workforce-development/maori-pasifika-trades-training
+│   │   └── youth-employment-pathways/
+│   │       └── page.tsx        # /workforce-development/youth-employment-pathways
+│   ├── areas-we-serve/
+│   │   ├── page.tsx            # /areas-we-serve
+│   │   ├── far-north-district/
+│   │   │   └── page.tsx        # /areas-we-serve/far-north-district
+│   │   ├── whangarei-district/
+│   │   │   └── page.tsx        # /areas-we-serve/whangarei-district
+│   │   └── kaipara-district/
+│   │       └── page.tsx        # /areas-we-serve/kaipara-district
+│   ├── blog/
+│   │   └── page.tsx            # /blog
+│   ├── contact-us/
+│   │   └── page.tsx            # /contact-us
+│   └── partner-with-us/
+│       └── page.tsx            # /partner-with-us
