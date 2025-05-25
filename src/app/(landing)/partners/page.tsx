@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Clock, Users, Building, CheckCircle, ArrowRight } from "lucide-react"
+import { Clock, Users, Home, CheckCircle, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 const applicationsPending = [
@@ -94,7 +94,7 @@ export default function PartnersPage() {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <Card className="border-0 shadow-sm text-center p-6">
             <div className="h-12 w-12 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-              <Building className="h-6 w-6 text-primary" />
+              <Home className="h-6 w-6 text-primary" />
             </div>
             <h3 className="text-lg font-semibold mb-3">Council Partnerships</h3>
             <p className="text-sm text-muted-foreground">
