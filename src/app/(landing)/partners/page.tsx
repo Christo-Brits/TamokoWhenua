@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Clock, Users, Home, CheckCircle, ArrowRight } from "lucide-react"
+import { Clock, Users, Home, Check, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -131,7 +131,7 @@ export default function PartnersPage() {
         <Card className="mb-12 border-border/50">
           <CardContent className="p-8">
             <h3 className="text-xl font-semibold mb-4 flex items-center">
-              <CheckCircle className="h-5 w-5 text-green-600 mr-2" />
+              <Check className="h-5 w-5 text-green-600 mr-2" />
               Strategic Partnership Roadmap
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
