@@ -127,8 +127,8 @@ export function ContactSection() {
                   <div>
                     <h3 className="font-medium">Phone</h3>
                     <p className="text-muted-foreground">
-                      <a href="tel:+6491234567" className="hover:text-primary transition-colors">
-                        09 123 4567
+                      <a href="tel:+64021953160" className="hover:text-primary transition-colors">
+                        021 953 160
                       </a>
                     </p>
                   </div>
@@ -141,8 +141,8 @@ export function ContactSection() {
                   <div>
                     <h3 className="font-medium">Email</h3>
                     <p className="text-muted-foreground">
-                      <a href="mailto:info@tamokowhenua.nz" className="hover:text-primary transition-colors">
-                        info@tamokowhenua.nz
+                      <a href="mailto:info@tamokowhenua.co.nz" className="hover:text-primary transition-colors">
+                        info@tamokowhenua.co.nz
                       </a>
                     </p>
                   </div>
@@ -216,7 +216,7 @@ export function ContactSection() {
                         type="tel" 
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="09 123 4567" 
+                        placeholder="021 953 160" 
                         disabled={isSubmitting}
                       />
                     </div>
