@@ -12,10 +12,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Reduce build memory usage
-  experimental: {
-    workerThreads: false,
-  },
 };
 
 module.exports = nextConfig;
