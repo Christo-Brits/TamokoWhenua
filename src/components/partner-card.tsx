@@ -67,7 +67,6 @@ export function PartnerCard({
               fill
               className="object-contain object-center"
               sizes="(max-width: 200px) 100vw, 200px"
-              onError={handleImageError}
               unoptimized={imageSrc.startsWith('http') && !imageSrc.includes('vercel.app')}
               priority={false}
             />
