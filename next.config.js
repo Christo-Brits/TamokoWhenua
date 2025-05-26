@@ -4,13 +4,17 @@ const nextConfig = {
   trailingSlash: true,
   distDir: 'out',
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
+  },
+  // Reduce build memory usage
+  experimental: {
+    workerThreads: false,
   },
 };
 
