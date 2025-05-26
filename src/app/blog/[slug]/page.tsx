@@ -6,31 +6,38 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
 // Mock data - in a real app, this would come from a CMS or API
+const posts = [
+  {
+    id: 1,
+    title: "New Community Training Program Launches in Kaikohe",
+    slug: "new-community-training-program",
+    excerpt: "Our latest workforce development initiative is now training 15 local residents in civil construction skills.",
+    content: `
+      <p>We're excited to announce the launch of our new community training program in Kaikohe, designed to equip local residents with valuable skills in civil construction and infrastructure development.</p>
+      <p>This 12-week intensive program combines classroom learning with hands-on experience, covering essential topics including:</p>
+      <ul>
+        <li>Health and safety best practices</li>
+        <li>Basic construction techniques</li>
+        <li>Heavy machinery operation</li>
+        <li>Site management fundamentals</li>
+      </ul>
+      <p>Upon completion, participants will receive industry-recognized certifications and assistance with job placements across our network of partner organizations.</p>
+    `,
+    date: "2025-05-15",
+    image: "/images/blog/training-program.jpg",
+    category: "Community"
+  },
+  // Add more posts as needed
+]
+
+// Generate static params for all blog posts
+export async function generateStaticParams() {
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
+}
+
 const getPost = (slug: string) => {
-  const posts = [
-    {
-      id: 1,
-      title: "New Community Training Program Launches in Kaikohe",
-      slug: "new-community-training-program",
-      excerpt: "Our latest workforce development initiative is now training 15 local residents in civil construction skills.",
-      content: `
-        <p>We're excited to announce the launch of our new community training program in Kaikohe, designed to equip local residents with valuable skills in civil construction and infrastructure development.</p>
-        <p>This 12-week intensive program combines classroom learning with hands-on experience, covering essential topics including:</p>
-        <ul>
-          <li>Health and safety best practices</li>
-          <li>Basic construction techniques</li>
-          <li>Heavy machinery operation</li>
-          <li>Site management fundamentals</li>
-        </ul>
-        <p>Upon completion, participants will receive industry-recognized certifications and assistance with job placements across our network of partner organizations.</p>
-      `,
-      date: "2025-05-15",
-      image: "/images/blog/training-program.jpg",
-      category: "Community"
-    },
-    // Add other posts here
-  ]
-  
   return posts.find(post => post.slug === slug)
 }
 
