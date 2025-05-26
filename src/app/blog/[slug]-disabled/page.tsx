@@ -27,17 +27,15 @@ const posts = [
     image: "/images/blog/training-program.jpg",
     category: "Community"
   },
-  // Add more posts as needed
 ]
 
-// Generate static params for all blog posts
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return posts.map((post) => ({
     slug: post.slug,
   }))
 }
 
-const getPost = (slug: string) => {
+function getPost(slug: string) {
   return posts.find(post => post.slug === slug)
 }
 
