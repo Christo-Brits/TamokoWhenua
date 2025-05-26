@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Construction, ArrowRight, Clock } from "lucide-react"
+import { Hammer, ArrowRight, Clock } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Projects Coming Soon | Tamoko Whenua Development Collective",
@@ -16,7 +16,7 @@ export default function ProjectsPage() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 mb-6">
-            <Construction className="h-10 w-10 text-primary" />
+            <Hammer className="h-10 w-10 text-primary" />
           </div>
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl mb-4">
             Projects Coming Soon
